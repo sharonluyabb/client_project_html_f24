@@ -3,108 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Food Pantry</title>
 </head>
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <div class="skip"><a href = "#main">Skip to Main Content</a></div>
     <header>
         <nav>
+            <img src="images/mbc-logo.png" alt="Maize and Blue Cupboard Logo">
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "UMSI_Tutoring_Academic_Support.html">UMSI Tutoring & Academic Support</a></li>
+                <li><a href = "UMSI_Tutoring_Academic_Support.html">Academic Support</a></li>
                 <li><a href = "Study_Spaces.html">Study Spaces</a></li>
-                <li><a href = "Food_Pantry.html">Food Pantry</a></li>
+                <li><a href = "Food_Pantry.html" class="active">Food Pantry</a></li>
             </ul>
         </nav>
-        
-        <img src="images/mbc-logo.png" alt="Maize and Blue Cupboard Logo">
         <h1>WELCOME TO MAIZE & BLUE CUPBOARD</h1>
-        <h2>OUR MISSION</h2>
-        <p>To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
     </header>
 
     <main id = "main">
-        <div>
+        <section class="start">
+            <h2>OUR MISSION</h2>
+            <p>To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
+        </section>
+
+        <div class="container">
             <h2>MAKE AN APPOINTMENT NOW</h2>
             <p>Shopping at the Maize and Blue Cupboard is by appointment only.  Please make an appointment by visiting our sign up page <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10">here</a>.</p>
         </div>
 
-        <div>
+        <div class="container">
             <h2>WHO WE ARE</h2>
-            <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
-            <p>Read our <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10"> FAQs</a> to learn more about the Maize and Blue Cupboard and how you can get helphere.</p>
-            
-            <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/ksqfEgX8KJg?si=7o_h9BSbHp23CTmp" 
-                title="YouTube video player" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+            <article>
+                <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
+                <p>Read our <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10"> FAQs</a> to learn more about the Maize and Blue Cupboard and how you can get helphere.</p>
+            </article>
         </div>
         
-
-        <div>
+        <div class="container">
             <h2>WHAT WE PROVIDE</h2>
-            
-            <img src="images/FOOD.png" alt="Food">
-            <h3>FOOD</h3>
-            <p>Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</p>
-            
-            <img src="images/KITCHEN_COOKING.png" alt="Kitchen">
-            <h3>KITCHEN & COOKING</h3>
-            <p>Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</p>
-            
-            <img src="images/PERSONAL_HOUSEHOLD.png" alt="Personal">
-            <h3>PERSONAL & HOUSEHOLD</h3>
-            <p>Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</p>
-            
-            <img src="images/SUPPORT.png" alt="Support">
-            <h3>SUPPORT</h3>
-            <p>Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</p>
+            <article class="we-provide">
+                <img src="images/FOOD.png" alt="Food">
+                <div>
+                    <p><strong>FOOD</strong></p>
+                    <p>Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</p>
+                </div>
+                </article>
+            <article class="we-provide">    
+                <img src="images/KITCHEN_COOKING.png" alt="Kitchen">
+                <div>
+                    <p><strong>KITCHEN & COOKING</strong></p>
+                    <p>Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</p>
+                </div>
+            </article>
+            <article class="we-provide">    
+                <img src="images/PERSONAL_HOUSEHOLD.png" alt="Personal">
+                <div>
+                    <p><strong>PERSONAL & HOUSEHOLD</strong></p>
+                    <p>Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</p>
+                </div>
+            </article>
+            <article class="we-provide">    
+                <img src="images/SUPPORT.png" alt="Support">
+                <div>
+                    <p><strong>SUPPORT</strong></p>
+                    <p>Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</p>
+                </div>
+            </article>
         </div>
 
-        <div>
-            <img src="images/news1.jpg" alt="Fall 2024 Mobile Distribution for North Campus">
-            <h2><a href = "https://mbc.studentlife.umich.edu/category/news">NEWS</a></h2>
-            <h2><a href = "https://mbc.studentlife.umich.edu/2024/09/04/fall-2024-mobile-distribution-for-north-campus/">Fall 2024 Mobile Distribution for North Campus</a></h2>
-            <p>U-M’s Maize & Blue Cupboard (MBC), the College of Engineering, Student Life, and Ann Arbor-based Food Gatherers will host North Campus mobile food distributions to make MBC resources more accessible for North Campus residents.</p>
-            
-            <img src="images/news2.jpg" alt="Mobile Distribution for North Campus — Fall 2023 Semester">
-            <h2><a href = "https://mbc.studentlife.umich.edu/category/news">NEWS</a></h2>
-            <h2><a href = "https://mbc.studentlife.umich.edu/2022/09/01/mobile-food-distribution-for-north-campus/">Mobile Distribution for North Campus — Fall 2023 Semester</a></h2>
-            <p>Students who live on North Campus have easier access to free groceries thanks to U-M’s Maize & Blue Cupboard (MBC), the College of Engineering, Student Life, and Ann Arbor-based Food Gatherers.</p>
-            
-            <img src="images/news3.jpg" alt="Federal Assistance for Food Insecurity">
-            <h2><a href = "https://mbc.studentlife.umich.edu/category/news">NEWS</a></h2>
-            <h2><a href = "https://mbc.studentlife.umich.edu/2021/06/14/federal-assistance-for-food-insecurity/">Federal Assistance for Food Insecurity</a></h2>
-            <p>The U.S. Department of Agriculture offers a nationwide program to help people who are struggling with food insecurity. The national name for the program is Supplemental Nutrition Assistance Program.</p>
-
-            <img src="images/news4.jpg" alt="From students, for students: The Maize and Blue Cupboard4">
-            <h2><a href = "https://mbc.studentlife.umich.edu/category/news">NEWS</a></h2>
-            <h2><a href = "https://mbc.studentlife.umich.edu/2024/03/13/from-students-for-students-the-maize-and-blue-cupboard/">From students, for students: The Maize and Blue Cupboard</a></h2>
-            <p>From modest beginnings, to a campus staple.</p>
-
-            <img src="images/p1.png" alt="fruits">
-            <img src="images/p2.png" alt="shopping">
-
-            <p><a href = "https://mbc.studentlife.umich.edu/news">More News</a></p>
-
+        <div class="container">
+            <h2>NEWS</h2>
+            <article class="NEWS">
+                <p><strong><a href = "https://mbc.studentlife.umich.edu/category/news" class="news">NEWS</a></strong></p>
+                <h2><a href = "https://mbc.studentlife.umich.edu/2024/09/04/fall-2024-mobile-distribution-for-north-campus/">Fall 2024 Mobile Distribution for North Campus</a></h2>
+                <img src="images/news1.jpg" alt="Fall 2024 Mobile Distribution for North Campus">
+                <p>U-M’s Maize & Blue Cupboard (MBC), the College of Engineering, Student Life, and Ann Arbor-based Food Gatherers will host North Campus mobile food distributions to make MBC resources more accessible for North Campus residents.</p>
+            </article>
+            <article class="NEWS">
+                <p><strong><a href = "https://mbc.studentlife.umich.edu/category/news" class="news">NEWS</a></strong></p>
+                <h2><a href = "https://mbc.studentlife.umich.edu/2022/09/01/mobile-food-distribution-for-north-campus/">Mobile Distribution for North Campus — Fall 2023 Semester</a></h2>
+                <img src="images/news2.jpg" alt="Mobile Distribution for North Campus — Fall 2023 Semester">
+                <p>Students who live on North Campus have easier access to free groceries thanks to U-M’s Maize & Blue Cupboard (MBC), the College of Engineering, Student Life, and Ann Arbor-based Food Gatherers.</p>
+            </article>
+            <article class="NEWS">  
+                <p><strong><a href = "https://mbc.studentlife.umich.edu/category/news" class="news">NEWS</a></strong></p>
+                <h2><a href = "https://mbc.studentlife.umich.edu/2021/06/14/federal-assistance-for-food-insecurity/">Federal Assistance for Food Insecurity</a></h2>  
+                <img src="images/news3.jpg" alt="Federal Assistance for Food Insecurity">
+                <p>The U.S. Department of Agriculture offers a nationwide program to help people who are struggling with food insecurity. The national name for the program is Supplemental Nutrition Assistance Program.</p>
+            </article>
+            <article class="NEWS">
+                <p><strong><a href = "https://mbc.studentlife.umich.edu/category/news" class="news">NEWS</a></strong></p>
+                <h2><a href = "https://mbc.studentlife.umich.edu/2024/03/13/from-students-for-students-the-maize-and-blue-cupboard/">From students, for students: The Maize and Blue Cupboard</a></h2>
+                <img src="images/news4.jpg" alt="From students, for students: The Maize and Blue Cupboard4">
+                <p>From modest beginnings, to a campus staple.</p>
+            </article>
+            <article class="NEWS">
+                <p><a href = "https://mbc.studentlife.umich.edu/news">More News</a></p>
+            </article>
         </div>
 
-        <div>
-            <img src="images/location.png" alt="Location">
+        <div class="container">
             <h2>Location</h2>
             <p>Located in the basement of the Betsy Barbour Residence Hall, please enter via the Maynard entrance only to ensure privacy for residents. Please contact us if you need ramp or elevator access.</p>
-            <p>Address:<a href="https://www.google.com/maps/place/Betsy+Barbour+Residence,+420+S+State+St,+Ann+Arbor,+MI+48109/@42.2772944,-83.7437539,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae38ac94a547:0xf8a4be6e818a1f4!8m2!3d42.2772944!4d-83.7415652">420 S State St Ann Arbor, MI 48109</a></p>
-            <p>Phone:<a href="tel:+17349362794">734-936-2794</a></p>
+            <p><strong>Address: </strong><a href="https://www.google.com/maps/place/Betsy+Barbour+Residence,+420+S+State+St,+Ann+Arbor,+MI+48109/@42.2772944,-83.7437539,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae38ac94a547:0xf8a4be6e818a1f4!8m2!3d42.2772944!4d-83.7415652">420 S State St Ann Arbor, MI 48109</a></p>
+            <p><strong>Phone: </strong><a href="tel:+17349362794">734-936-2794</a></p>
+            <img src="images/location.png" alt="Location">
         </div>
 
-        <div>
+        <div class="container">
             <h2> Hours</h2>
             <p>On Monday 10/30 the Maize and Blue Cupboard will transition to shopping by appointment only. Schedule your shopping appointment <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments">here</a>.</p>
             <p><a href="https://mbc.studentlife.umich.edu/contact">CONTACT US</a></p>
         </div>
 
-        <div>
+        <div class="container">
             <img src="images/footer-donate-image.png" alt="Donate">
             <h2>Choose how you’d like to help.</h2>
         </div>

@@ -1,0 +1,206 @@
+body {
+    background-color: #FFCB05; /* Background color */
+    color: #00274C; /* Text color */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    padding: 5%; /* Padding around the content */
+}
+
+h1 {
+    font-size: 170%; /* Adjust font size for mobile */
+    text-align: center; /* Center align headings */
+}
+
+h2 {
+    font-size: 120%; /* Adjust font size for mobile */
+    text-align: center; /* Center align headings */
+    margin: 0%;
+}
+
+p {
+    font-size: 80%; /* Font size for paragraphs */
+    margin: 0; /* Remove default margin */
+    line-height: 120%; /* Line height for readability */
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    align-items: center;
+    background-color: #00274C;
+}
+
+nav img {
+    max-height: 28px;
+    width: auto; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0%;
+    justify-self: center;
+}
+
+img.UMSI-LOGO {
+    padding: 1%;
+    background-color: white;
+}
+
+nav ul {
+    padding-left: 10%;
+    margin: 0%;
+}
+
+nav ul li {
+    color: white;
+    padding: 1%;
+    margin: 2%;
+}
+
+nav a {
+    font-size: 100%;
+    color: white;
+}
+
+.active {
+    font-weight: bolder;
+    border-bottom: 2px solid;
+}
+
+/* Targeting the section with class 'start' */
+.start {
+    display: grid;
+    align-content: center;
+    font-style: italic; /* Apply italic style to everything in this section */
+    text-align: center;
+    padding: 3% 0%;
+    gap: 7px;
+}
+
+.left {
+    text-align: left;
+}
+
+.start ol, .start ul {
+    text-align: left;
+    font-size: 80%;
+    margin: 1% 0%;
+    padding: 0% 5%;
+}
+
+.start ul li{
+    margin: 0% 0% 1%;
+}
+
+/* Grid Layout for Main Content */
+.container {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-content: center;
+    background-color: white;
+    padding: 10px 4%;
+    border-radius: 8px;
+    gap: 10px; 
+    margin-top: 4%;
+}
+
+/* Article Styles */
+article {
+    background-color: #FFCB05; /* Background for articles */
+    padding: 5%; /* Padding for articles */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+article p {
+    font-size: 80%; /* Font size for paragraphs */
+    margin: 0% 0% 3%;
+    line-height: 120%; /* Line height for readability */
+}
+
+/* food pantry */
+article.we-provide {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    align-items: center;
+}
+
+/* food pantry */
+article.we-provide img{
+    width:90%;
+}
+
+/* food pantry */
+.news {
+    color: #FFCB05;
+    background-color: #00274C;
+    text-align: left;
+}
+
+article.NEWS img {
+    max-width: 100%;
+    height: 100px;
+    justify-self: center; /* Center horizontally */
+    align-self: center;   /* Center vertically */
+    object-fit: cover;
+    object-position: center;
+}
+
+figcaption {
+    font-size: 30%; /* Font size for captions */
+    text-align: left;
+}
+
+/* Image Styles */
+figure {
+    margin: 0; /* Reset margin */
+}
+
+img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* List Styles */
+ul{
+    font-size: 80%;
+    padding-left: 7%; /* Indent for unordered list */
+}
+ul li {
+    margin: 0% 0% 3%;
+}
+
+footer {
+    text-align: center; /* Center align footer content */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Accessibility Enhancements */
+a {
+    color: #00274C; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for accessibility */
+}
+
+nav a:hover, a:focus{
+    text-decoration: underline;
+  }
+  
+  /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
+  .skip a{
+    position: absolute;
+    top: -40px;
+  }
+  
+  /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
+  .skip a:focus{
+    top: 20px;
+  }
+  
+  /* Step 3: Write selector/rule property to style all elements when in focus*/
+  *:focus{
+    border: 2px solid;
+  }
